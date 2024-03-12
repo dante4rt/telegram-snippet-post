@@ -1,0 +1,29 @@
+{
+  "name": "telegram-snippet-post",
+  "version": "1.0.0",
+  "description": "A simple NPM package to send messages to Telegram chats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dante4rt/telegram-snippet-post.git"
+  },
+  "keywords": [
+    "telegram",
+    "post",
+    "message",
+    "snippet",
+    "chat"
+  ],
+  "author": "dante4rt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dante4rt/telegram-snippet-post/issues"
+  },
+  "homepage": "https://github.com/dante4rt/telegram-snippet-post#readme",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
