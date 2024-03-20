@@ -9,9 +9,14 @@ const sendTelegramPost = async (token, chatId, message) => {
       text: message,
       disable_web_page_preview: true,
     });
+
+    console.log('Telegram API Response:', response.data);
+
     return response.data;
   } catch (error) {
-    throw new Error(`Failed to send message to Telegram: ${error.message}`);
+    console.error('Failed to send message to Telegram:', error);
+
+    throw new Error('Failed to send message to Telegram');
   }
 };
 
