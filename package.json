@@ -1,6 +1,6 @@
 {
   "name": "telegram-snippet-post",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple NPM package to send messages to Telegram chats.",
   "main": "index.js",
   "scripts": {
